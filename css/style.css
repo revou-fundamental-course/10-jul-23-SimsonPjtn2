@@ -1,0 +1,224 @@
+.title {
+    font-family: Calibri;
+    text-align: justify;
+    font-weight: normal;
+    width: 40%;
+    margin: auto;
+}
+
+.sub-title {
+    font-family: Calibri;
+    font-size: medium;
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+}
+
+.jenis-kelamin {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.badan {
+    font-size: medium;
+}
+
+form {
+    font-family: Calibri;
+    display: flex;
+    flex-direction: column;
+    background-color: F1F6F9;
+    justify-content: flex-end;
+    padding: .5em;
+    width: 40%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    row-gap: 10px;
+}
+
+.beratBadan {
+    width: auto;
+}
+.usia {
+    width: auto;
+}
+.tinggiBadan {
+    width: auto;
+}
+
+.hitung-BMI {
+    font-size: 16;
+    font-weight: medium;
+    color: white;
+    background-color: 39B5E0;
+    width: 100px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    margin-right: 5px;
+}
+.reset {
+    font-size: 16;
+    font-weight: medium;
+    background-color: white;
+    width: 65px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+
+.hitung-BMI:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.reset:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.hitung-BMI:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+.reset:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.keunggulan-fitur {
+    font-family: Calibri;
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+}
+
+.list {
+    font-family: Calibri;
+    font-size: medium;
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+}
+
+.results {
+    text-align: center;
+}
+
+.description {
+    font-family: Calibri;
+    font-size: medium;
+    width: 40%;
+    margin: auto;
+}
+
+.download-hasil-BMI {
+    font-size: 16;
+    color: white;
+    background-color: 39B5E0;
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+.download-hasil-BMI:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.download-hasil-BMI:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.sub-title-hasil {
+    font-family: Calibri;
+    font-size: medium;
+    text-align: justify;
+    width: 40%;
+    margin: auto;
+}
+
+.konsultasi-ahli-gizi {
+    font-weight: medium;
+    margin-left: 30%;
+    color: white;
+    background-color: 39B5E0;
+    width: 225px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    margin-right: 5px;
+}
+.registrasi-ahli-gizi {
+    font-weight: medium;
+    color: white;
+    background-color: 39B5E0;
+    width: 200px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+
+.konsultasi-ahli-gizi:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.registrasi-ahli-gizi:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.konsultasi-ahli-gizi:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+.registrasi-ahli-gizi:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.konsultasi-dokter {
+    font-size: 16;
+    color: white;
+    background-color: 39B5E0;
+    width: 225px;
+    height: 40px;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+
+}
+.konsultasi-dokter:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.konsultasi-dokter:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.download-aplikasi {
+    font-family: Calibri;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.download {
+    margin-left: 40%;
+}
